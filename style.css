@@ -14,9 +14,7 @@ body{
     display: flex;
     gap: 180px;
 }
-.corner{
-    
-}
+ 
 .home{
     display: flex;
     gap: 80px;
