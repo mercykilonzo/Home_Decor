@@ -1,0 +1,68 @@
+.website{
+margin: 40px 40px 40px 40px;
+border: 2px solid;
+padding: 30px 30px 30px 30px;
+
+
+}
+
+.home{
+    display: flex;
+    gap: 80px;
+}
+.home_image{
+
+    height: 350px;
+    width: 40px;
+    
+}
+.amounts{
+    display: flex;
+    gap: 40px;
+}
+.start{
+    height: 700px;
+}
+#button{
+    border-radius: 40%;
+    width: 150px;
+    height: 70px;
+    padding: 30px auto;
+    background-color: gray;
+    color: white;
+}
+.logos{
+    background-color: white;
+    display: flex;
+    height: 40px;
+}
+.saller{
+    display: flex;
+    gap: 80px;
+}
+ .H2{
+    text-align: center;
+ }
+
+ .Decor{
+    display: flex;
+    gap: 70px;
+    font-size: larger;
+ }
+
+ #shop_button{
+    border-radius: 40%;
+    width: 150px;
+    height: 70px;
+    padding: 30px auto;
+ }
+    
+    #decor{
+        height: 500px;
+        width: 450px;
+    }
+
+    nav{
+        display: flex;
+        gap: 500px;
+    }
