@@ -1,20 +1,29 @@
 .website{
-margin: 40px 40px 40px 40px;
-border: 2px solid;
-padding: 30px 30px 30px 30px;
+margin: 60px 60px 60px 60px;
+padding: 50px 50px 50px 50px;
+width: 80%;
+background-color: white;
+
 
 
 }
-
+body{
+    background-color: rgb(238, 231, 232);
+}
+.topRow{
+    display: flex;
+    gap: 180px;
+}
+.corner{
+    
+}
 .home{
     display: flex;
     gap: 80px;
+    height: 550px;
 }
-.home_image{
-
-    height: 350px;
-    width: 40px;
-    
+#word{
+    border: dashed;
 }
 .amounts{
     display: flex;
@@ -24,17 +33,23 @@ padding: 30px 30px 30px 30px;
     height: 700px;
 }
 #button{
-    border-radius: 40%;
+    border-radius: 45% 45% 45% 45%;
     width: 150px;
     height: 70px;
     padding: 30px auto;
     background-color: gray;
     color: white;
 }
-.logos{
+.Logos{
     background-color: white;
     display: flex;
-    height: 40px;
+    gap: 40px;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .saller{
     display: flex;
@@ -58,11 +73,24 @@ padding: 30px 30px 30px 30px;
  }
     
     #decor{
-        height: 500px;
+        height: 400px;
         width: 450px;
     }
 
     nav{
         display: flex;
         gap: 500px;
+    }
+    #auther{
+        height: 40px;
+        width: 40px;
+    }
+    .reviews{
+        display: flex;
+        gap: 70px;
+        font-size: larger;
+    }
+    .About{
+        display: flex;
+        gap: 180px;
     }
